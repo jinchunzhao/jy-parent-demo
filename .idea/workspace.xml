@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebbfe5b0-a4e6-4084-b3c0-323fca56f1b1" name="Default Changelist" comment="" />
+    <list default="true" id="ebbfe5b0-a4e6-4084-b3c0-323fca56f1b1" name="Default Changelist" comment="springCloud微服务中实际使用oauth2.0 实现sso">
+      <change beforePath="$PROJECT_DIR$/common/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/server-goods-api/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/server-goods-api/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-api/server-user-api/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-api/server-user-api/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/goods-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/goods-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/order-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/order-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/user-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/user-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-oauth/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-oauth/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -503,8 +513,16 @@
       <workItem from="1628902240666" duration="5055000" />
       <workItem from="1628907313664" duration="1866000" />
       <workItem from="1628909203271" duration="24674000" />
-      <workItem from="1628989749931" duration="10522000" />
+      <workItem from="1628989749931" duration="10878000" />
     </task>
+    <task id="LOCAL-00001" summary="springCloud微服务中实际使用oauth2.0 实现sso">
+      <created>1629007239695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629007239695</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -599,6 +617,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springCloud微服务中实际使用oauth2.0 实现sso" />
+    <option name="LAST_COMMIT_MESSAGE" value="springCloud微服务中实际使用oauth2.0 实现sso" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sso-oauth/src/main/java/com/jy/sso/config/auth/CustomUserAuthenticationConverter.java">
