@@ -14,7 +14,10 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 import com.jy.common.utils.auth.JksUtils;
 
 /**
- * 激活方法上的PreAuthorize注解
+ * 资源服务器授权配置，当前资源服务器对用户权限的校验
+ *
+ * 注解@EnableResourceServer 开启资源校验服务，令牌校验
+ * 注解@EnableGlobalMethodSecurity全局的方法校验，开启注解的支持激活方法上的PreAuthorize注解
  *
  * @author jinchunzhao
  * @version 1.0
