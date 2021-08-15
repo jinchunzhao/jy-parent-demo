@@ -1,0 +1,20 @@
+server:
+  port: 4366
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka/
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/sso-oauth?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimeZone=GMT%2B8
+    username: root
+    password: root
+    hikari:
+      minimum-idle: 20
+      maximum-pool-size: 50
+  jpa:
+    database: mysql
+    show-sql: true

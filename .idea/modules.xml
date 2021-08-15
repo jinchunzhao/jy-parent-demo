@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" group="jy-parent-demo and modules" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" group="jy-parent-demo and modules" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" group="jy-parent-demo and modules" />
+      <module fileurl="file://$PROJECT_DIR$/server/goods-server/goods-server.iml" filepath="$PROJECT_DIR$/server/goods-server/goods-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jy-parent-demo.iml" filepath="$PROJECT_DIR$/jy-parent-demo.iml" group="jy-parent-demo and modules" />
+      <module fileurl="file://$PROJECT_DIR$/server/order-server/order-server.iml" filepath="$PROJECT_DIR$/server/order-server/order-server.iml" group="jy-parent-demo and modules/server and modules" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" group="jy-parent-demo and modules/server and modules" />
+      <module fileurl="file://$PROJECT_DIR$/server-api/server-api.iml" filepath="$PROJECT_DIR$/server-api/server-api.iml" group="jy-parent-demo and modules/server-api and modules" />
+      <module fileurl="file://$PROJECT_DIR$/server-api/server-goods-api/server-goods-api.iml" filepath="$PROJECT_DIR$/server-api/server-goods-api/server-goods-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-api/server-user-api/server-user-api.iml" filepath="$PROJECT_DIR$/server-api/server-user-api/server-user-api.iml" group="jy-parent-demo and modules/server-api and modules" />
+      <module fileurl="file://$PROJECT_DIR$/sso-oauth/sso-oauth.iml" filepath="$PROJECT_DIR$/sso-oauth/sso-oauth.iml" group="jy-parent-demo and modules" />
+      <module fileurl="file://$PROJECT_DIR$/server/user-server/user-server.iml" filepath="$PROJECT_DIR$/server/user-server/user-server.iml" group="jy-parent-demo and modules/server and modules" />
+    </modules>
+  </component>
+</project>

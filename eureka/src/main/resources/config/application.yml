@@ -1,0 +1,15 @@
+#定义服务应用名称
+spring:
+  application:
+    name: eureka
+  freemarker:
+    prefer-file-system-access: false
+  profiles:
+    active: dev
+
+#定义eureka服务端
+eureka:
+  client:
+    register-with-eureka: false # 是否注册自己的信息到EurekaServer，默认是true
+    fetch-registry: false
+    registry-fetch-interval-seconds: 600
