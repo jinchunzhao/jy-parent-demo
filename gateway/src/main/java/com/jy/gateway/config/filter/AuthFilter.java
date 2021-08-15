@@ -91,16 +91,16 @@ public class AuthFilter implements GlobalFilter, Ordered {
             // 响应空数据
             return response.setComplete();
         }
-        // 如果有令牌，则校验令牌是否有效
-        try {
-            Claims claims = JwtUtil.parseJWT(jwtToken);
-        } catch (Exception e) {
-            // 无效则拦截
-            // 设置拦截权限状态码 401
-            response.setStatusCode(HttpStatus.UNAUTHORIZED);
-            // 响应空数据
-            return response.setComplete();
-        }
+//        // 如果有令牌，则校验令牌是否有效
+//        try {
+//            Claims claims = JwtUtil.parseJWT(jwtToken);
+//        } catch (Exception e) {
+//            // 无效则拦截
+//            // 设置拦截权限状态码 401
+//            response.setStatusCode(HttpStatus.UNAUTHORIZED);
+//            // 响应空数据
+//            return response.setComplete();
+//        }
 
         // 从cookie中获取jti的值,如果该值不存在,拒绝本次访问
         String jti = authService.getJtiFromCookie(request);
@@ -122,8 +122,17 @@ public class AuthFilter implements GlobalFilter, Ordered {
             return response.setComplete();
         }
 
-        // 4.对当前的请求对象进行增强,让它会携带令牌的信息
-        request.mutate().header(SsoConstant.AUTH, SsoConstant.BEARER + jwt);
+
+        if (!hasToken){
+            //判断当前令牌是否有bearer前缀。没有则添加前缀bearer
+            if(!jwtToken.startsWith("bearer ") && !jwtToken.startsWith("Bearer ")){
+                jwtToken = SsoConstant.BEARER + jwtToken;
+            }
+
+            // 4.对当前的请求对象进行增强,让它会携带令牌的信息
+            request.mutate().header(SsoConstant.AUTH, jwtToken);
+        }
+
         return chain.filter(exchange);
     }
 
